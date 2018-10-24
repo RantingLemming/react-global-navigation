@@ -1,0 +1,305 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://dev01edfx.sharepoint.com/sites/Legal/SitePages/Home.aspx",
+            "customActions": {
+                "84103fe1-659c-4086-9018-6eac41079529": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "links": [
+                            {
+                                "name": "Corporate",
+                                "url": "/sites/corporate",
+                                "children": [
+                                    {
+                                        "name": "Operating Council",
+                                        "url": "https://enet/corporate/rob"
+                                    },
+                                    {
+                                        "name": "Corporate Council",
+                                        "url": "https://enet/corporate/rob/cc"
+                                    },
+                                    {
+                                        "name": "IT",
+                                        "url": "https://enet/IT"
+                                    },
+                                    {
+                                        "name": "Finance India",
+                                        "url": "https://enet/fin/finidc"
+                                    },
+                                    {
+                                        "name": "Operations",
+                                        "url": "https://enet/operations"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "People & Culture",
+                                "url": "/sites/hr",
+                                "children": [
+                                    {
+                                        "name": "Managers' Corner",
+                                        "url": "https://enet/HR/ManagersCorner/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Immigration & Mobility",
+                                        "url": "https://enet/HR/Immigration/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Talent Management",
+                                        "url": "https://enet/HR/Training/SitePages/Home.aspx"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "globalNavigation": {
+            "pageUrl": "https://dev01edfx.sharepoint.com/sites/Legal/SitePages/Home.aspx",
+            "customActions": {
+                "84103fe1-659c-4086-9018-6eac41079529": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "links": [
+                            {
+                                "name": "Corporate",
+                                "url": "/sites/corporate",
+                                "children": [
+                                    {
+                                        "name": "Operating Council",
+                                        "url": "https://enet/corporate/rob"
+                                    },
+                                    {
+                                        "name": "Corporate Council",
+                                        "url": "https://enet/corporate/rob/cc"
+                                    },
+                                    {
+                                        "name": "IT",
+                                        "url": "https://enet/IT"
+                                    },
+                                    {
+                                        "name": "Finance India",
+                                        "url": "https://enet/fin/finidc"
+                                    },
+                                    {
+                                        "name": "Operations",
+                                        "url": "https://enet/operations"
+                                    },
+                                    {
+                                        "name": "Pricing & Licensing",
+                                        "url": "https://enet/pl"
+                                    },
+                                    {
+                                        "name": "Finance",
+                                        "url": "https://enet/finance"
+                                    },
+                                    {
+                                        "name": "Travel Portal",
+                                        "url": "https://enet/operations/SitePages/TravelPortal.aspx"
+                                    },
+                                    {
+                                        "name": "Legal",
+                                        "url": "https://enet/legal"
+                                    },
+                                    {
+                                        "name": "Leaders Council - India",
+                                        "url": "https://enet/corporate/rob/sitepages/ILC.aspx"
+                                    },
+                                    {
+                                        "name": "Edifecs Leadership",
+                                        "url": "https://enet/corporate/SitePages/Leadership.aspx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "People & Culture",
+                                "url": "/sites/hr",
+                                "children": [
+                                    {
+                                        "name": "Managers' Corner",
+                                        "url": "https://enet/HR/ManagersCorner/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Immigration & Mobility",
+                                        "url": "https://enet/HR/Immigration/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Talent Management",
+                                        "url": "https://enet/HR/Training/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Benefits",
+                                        "url": "https://enet/HR/HRIDC/Benefits/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Benefits",
+                                        "url": "https://enet/HR/Benefits/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Wellness & Events",
+                                        "url": "https://enet/HR/HRIDC/ER/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Wellbeing Center",
+                                        "url": "https://wbc.round.glass"
+                                    },
+                                    {
+                                        "name": "Forms & Policies",
+                                        "url": "https://enet/HR/HRIDC/SitePages/Forms%20and%20Policies.aspx"
+                                    },
+                                    {
+                                        "name": "Forms & Policies",
+                                        "url": "https://enet/HR/SitePages/Forms%20and%20Policies.aspx"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Products",
+                                "url": "/sites/pne",
+                                "children": [
+                                    {
+                                        "name": "Operations",
+                                        "url": "https://enet/pne/SitePages/operations.aspx"
+                                    },
+                                    {
+                                        "name": "Process",
+                                        "url": "https://enet/pne/SitePages/Process.aspx"
+                                    },
+                                    {
+                                        "name": "Product Documents",
+                                        "url": "https://enet/pne/SitePages/ProductDocuments.aspx"
+                                    },
+                                    {
+                                        "name": "Tech Writing",
+                                        "url": "https://enet/eng/teams/technicalwriting/SitePages/Home.aspx"
+                                    },
+                                    {
+                                        "name": "Architecture & Platform",
+                                        "url": "https://enet/pne/arch"
+                                    },
+                                    {
+                                        "name": "UX Design",
+                                        "url": "https://enet/pne/ux"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Marketing",
+                                "url": "/sites/marketing",
+                                "children": [
+                                    {
+                                        "name": "Corporate",
+                                        "url": "https://enet/marketing/corporate_marketing"
+                                    },
+                                    {
+                                        "name": "Product",
+                                        "url": "https://enet/marketing/product_marketing"
+                                    },
+                                    {
+                                        "name": "Demand Generation",
+                                        "url": "https://enet/marketing/DemandGen"
+                                    },
+                                    {
+                                        "name": "Collateral",
+                                        "url": "https://enet/marketing/product_marketing/SitePages/PMDocs.aspx"
+                                    },
+                                    {
+                                        "name": "Tradeshows & Events",
+                                        "url": "https://enet/marketing/tradeshowsandevents"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Field / Sales",
+                                "url": "/sites/sales",
+                                "children": [
+                                    {
+                                        "name": "International Sales",
+                                        "url": "https://enet/sales/International"
+                                    },
+                                    {
+                                        "name": "SAS",
+                                        "url": "https://enet/sales/sas"
+                                    },
+                                    {
+                                        "name": "US Sales",
+                                        "url": "https://enet/sales/us"
+                                    },
+                                    {
+                                        "name": "Solution Consulting",
+                                        "url": "https://enet/sales/consulting"
+                                    },
+                                    {
+                                        "name": "Sales Operations",
+                                        "url": "https://enet/sales/smgmt"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Services",
+                                "url": "/sites/cs",
+                                "children": [
+                                    {
+                                        "name": "Implementation",
+                                        "url": "https://enet/cs/implementation"
+                                    },
+                                    {
+                                        "name": "Support",
+                                        "url": "https://enet/cs/support"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "University",
+                                "url": "/sites/university",
+                                "children": [
+                                    {
+                                        "name": "Confluence",
+                                        "url": "https://enet/university/confluence"
+                                    },
+                                    {
+                                        "name": "Edifecs Product Trainings",
+                                        "url": "https://enet/university/SitePages/products.aspx"
+                                    },
+                                    {
+                                        "name": "Industry & Domain Events",
+                                        "url": "https://enet/university/SitePages/Industry.aspx"
+                                    },
+                                    {
+                                        "name": "Media Repository",
+                                        "url": "https://enet/Sales/enbl/SitePages/Media%20Repository.aspx"
+                                    },
+                                    {
+                                        "name": "Compliance Trainings",
+                                        "url": "https://enet/university/SitePages/Legal%20Compliance.aspx"
+                                    },
+                                    {
+                                        "name": "Technology Trainings",
+                                        "url": "https://enet/university/SitePages/Technology.aspx"
+                                    },
+                                    {
+                                        "name": "Course Catalogue",
+                                        "url": "https://enet/university/SitePages/Course%20Catalog.aspx"
+                                    },
+                                    {
+                                        "name": "Training Calendar",
+                                        "url": "https://enet/university/SitePages/TrainingPlan.aspx"
+                                    },
+                                    {
+                                        "name": "Product Certification",
+                                        "url": "https://enet/university/SitePages/Edifecs%20Product%20Certification.aspx"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

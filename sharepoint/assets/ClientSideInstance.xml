@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="GlobalNavigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="84103fe1-659c-4086-9018-6eac41079529"
+        Properties="
+            {
+                &quot;links&quot;: [
+                    {
+                        &quot;name&quot;: &quot;Corporate&quot;,
+                        &quot;url&quot;: &quot;/sites/corporate&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Operating Council&quot;,
+                                &quot;url&quot;: &quot;https://enet/corporate/rob&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Corporate Council&quot;,
+                                &quot;url&quot;: &quot;https://enet/corporate/rob/cc&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;IT&quot;,
+                                &quot;url&quot;: &quot;https://enet/IT&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Finance India&quot;,
+                                &quot;url&quot;: &quot;https://enet/fin/finidc&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Operations&quot;,
+                                &quot;url&quot;: &quot;https://enet/operations&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Pricing &amp; Licensing&quot;,
+                                &quot;url&quot;: &quot;https://enet/pl&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Finance&quot;,
+                                &quot;url&quot;: &quot;https://enet/finance&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Travel Portal&quot;,
+                                &quot;url&quot;: &quot;https://enet/operations/SitePages/TravelPortal.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Legal&quot;,
+                                &quot;url&quot;: &quot;https://enet/legal&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Leaders Council - India&quot;,
+                                &quot;url&quot;: &quot;https://enet/corporate/rob/sitepages/ILC.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Edifecs Leadership&quot;,
+                                &quot;url&quot;: &quot;https://enet/corporate/SitePages/Leadership.aspx&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;People &amp; Culture&quot;,
+                        &quot;url&quot;: &quot;/sites/hr&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Managers&apos; Corner&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/ManagersCorner/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Immigration &amp; Mobility&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/Immigration/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Talent Management&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/Training/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Benefits&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/HRIDC/Benefits/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Benefits&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/Benefits/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Wellness &amp; Events&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/HRIDC/ER/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Wellbeing Center&quot;,
+                                &quot;url&quot;: &quot;https://wbc.round.glass&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Forms &amp; Policies&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/HRIDC/SitePages/Forms%20and%20Policies.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Forms &amp; Policies&quot;,
+                                &quot;url&quot;: &quot;https://enet/HR/SitePages/Forms%20and%20Policies.aspx&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;Products&quot;,
+                        &quot;url&quot;: &quot;/sites/pne&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Operations&quot;,
+                                &quot;url&quot;: &quot;https://enet/pne/SitePages/operations.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Process&quot;,
+                                &quot;url&quot;: &quot;https://enet/pne/SitePages/Process.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Product Documents&quot;,
+                                &quot;url&quot;: &quot;https://enet/pne/SitePages/ProductDocuments.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Tech Writing&quot;,
+                                &quot;url&quot;: &quot;https://enet/eng/teams/technicalwriting/SitePages/Home.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Architecture &amp; Platform&quot;,
+                                &quot;url&quot;: &quot;https://enet/pne/arch&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;UX Design&quot;,
+                                &quot;url&quot;: &quot;https://enet/pne/ux&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;Marketing&quot;,
+                        &quot;url&quot;: &quot;/sites/marketing&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Corporate&quot;,
+                                &quot;url&quot;: &quot;https://enet/marketing/corporate_marketing&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Product&quot;,
+                                &quot;url&quot;: &quot;https://enet/marketing/product_marketing&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Demand Generation&quot;,
+                                &quot;url&quot;: &quot;https://enet/marketing/DemandGen&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Collateral&quot;,
+                                &quot;url&quot;: &quot;https://enet/marketing/product_marketing/SitePages/PMDocs.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Tradeshows &amp; Events&quot;,
+                                &quot;url&quot;: &quot;https://enet/marketing/tradeshowsandevents&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;Field / Sales&quot;,
+                        &quot;url&quot;: &quot;/sites/sales&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;International Sales&quot;,
+                                &quot;url&quot;: &quot;https://enet/sales/International&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;SAS&quot;,
+                                &quot;url&quot;: &quot;https://enet/sales/sas&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;US Sales&quot;,
+                                &quot;url&quot;: &quot;https://enet/sales/us&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Solution Consulting&quot;,
+                                &quot;url&quot;: &quot;https://enet/sales/consulting&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Sales Operations&quot;,
+                                &quot;url&quot;: &quot;https://enet/sales/smgmt&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;Services&quot;,
+                        &quot;url&quot;: &quot;/sites/cs&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Implementation&quot;,
+                                &quot;url&quot;: &quot;https://enet/cs/implementation&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Support&quot;,
+                                &quot;url&quot;: &quot;https://enet/cs/support&quot;
+                            }
+                        ]
+                    },
+                    {
+                        &quot;name&quot;: &quot;University&quot;,
+                        &quot;url&quot;: &quot;/sites/university&quot;,
+                        &quot;children&quot;: [
+                            {
+                                &quot;name&quot;: &quot;Confluence&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/confluence&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Edifecs Product Trainings&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/products.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Industry &amp; Domain Events&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/Industry.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Media Repository&quot;,
+                                &quot;url&quot;: &quot;https://enet/Sales/enbl/SitePages/Media%20Repository.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Compliance Trainings&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/Legal%20Compliance.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Technology Trainings&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/Technology.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Course Catalogue&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/Course%20Catalog.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Training Calendar&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/TrainingPlan.aspx&quot;
+                            },
+                            {
+                                &quot;name&quot;: &quot;Product Certification&quot;,
+                                &quot;url&quot;: &quot;https://enet/university/SitePages/Edifecs%20Product%20Certification.aspx&quot;
+                            }
+                        ]
+                    }
+                ]
+            }
+        ">
+    </ClientSideComponentInstance>
+</Elements>
